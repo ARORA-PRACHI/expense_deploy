@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Axios instance
 export const axiosClient = axios.create({
-    baseURL: 'http://localhost:4000', // Removed unnecessary space after the colon
+    baseURL: 'https://my-expense-tracker-ingd.onrender.com', // Removed unnecessary space after the colon
 });
 
 // // Delete message function
